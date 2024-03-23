@@ -46,6 +46,6 @@ yc compute instance create \
 
 HW5
 
-Create boot disk with Packer. Get boot disk for VM.
+Create boot disk with Packer. Get boot disk for VM..
 Use variables to create template for creating VM: packer validate -var-file=variables.json ubuntu16.json packer build -var-file=variables.json ubuntu16.json.
 Create script for 'bake' create-reddit-vm.sh: packer validate -var-file=variables.json immutable.json packer build -var-file=variables.json immutable.json.
